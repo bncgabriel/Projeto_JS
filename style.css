@@ -1,0 +1,32 @@
+body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(assets/backgroundimage.jpg);
+    background-size: cover;
+}
+.clock  {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,  0,  0,  0.5);
+}
+.time  {
+    font-family: fantasy;
+    font-size: 80px;
+    text-align: center;
+    color: black;
+}
+.time-box {
+    display: inline-block;
+    background-color:transparent;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.label {
+    font-size: 15px;
+    text-align: center;
+}
